@@ -13,7 +13,8 @@ class TestBankAccount(unittest.TestCase):
 
     def test_deposit_valid_amount(self):
         #Test deposit method with a valid amount.
-        self.account.deposit(50)
+        reults = self.account.deposit(50)
+        self.assertTrue(reults) #check if there is a value
         self.assertEqual(self.account.get_balance(), "Your balance is: $150")
     
     def test_withdraw_valid_amount(self):
