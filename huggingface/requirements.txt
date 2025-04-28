@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+seaborn
+fastai
+transformers
+simpletransformers
+plotly
+gradio
